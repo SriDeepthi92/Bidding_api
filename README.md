@@ -52,7 +52,7 @@ ORDER BY product_id;
 ```
 Output (approx): 2.5508 sec
 ---
-<img src="static\images\before_index.png" alt="Django Logo" width="500">
+<img src="static/images/before_index.png" alt="before_index" width="500">
 ---
 
 ### ✅ After Index
@@ -64,7 +64,7 @@ ORDER BY product_id;
 ```
 Output (approx): 0.0369 sec
 ---
-<img src="static\images\after_index.png" alt="Django Logo" width="500">
+<img src="static/images/after_index.png" alt="after_index" width="500">
 ---
 
 ### 🐳 Using Docker
