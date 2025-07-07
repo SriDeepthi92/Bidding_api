@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+db.sqlite3
+*.sqlite3
+*.log
+
+# Environment
+.env
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# Migrations (optional: keep if you want to version them)
+**/migrations/__pycache__/
+**/migrations/*.pyc
+
+# Static/media files (optional: keep if you want to version them)
+staticfiles/
+media/
+
+# Node (if using npm/yarn for frontend)
+node_modules/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# GitHub Actions
+.github/workflows/*.log

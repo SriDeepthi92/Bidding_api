@@ -76,8 +76,4 @@ docker-compose up --build
 ### 🔁 Celery Task: daily_budget_audit
 Runs every day to audit recent bids.
 
-```python
-from bids.tasks import daily_budget_audit
-daily_budget_audit.delay()
-```
 ---
