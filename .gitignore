@@ -59,5 +59,6 @@ dist/
 *.egg-info/
 .eggs/
 
+# Logs
 # GitHub Actions
 .github/workflows/*.log
