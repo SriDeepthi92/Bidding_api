@@ -69,7 +69,6 @@ Output (approx): 0.0369 sec
 
 ### 🐳 Using Docker
 
-
 docker-compose up --build
 ---
 
