@@ -1,5 +1,5 @@
 import pytest
-from bidding.price_helper import calculate_adjusted_cpc
+from bidding.price_helper import adjusted_cpc
 
 @pytest.mark.parametrize(
     "current_cpc, target_roas, expected",
@@ -12,4 +12,4 @@ from bidding.price_helper import calculate_adjusted_cpc
     ]
 )
 def test_calculate_adjusted_cpc(current_cpc, target_roas, expected):
-    assert calculate_adjusted_cpc(current_cpc, target_roas) == expected
+    assert adjusted_cpc(current_cpc, target_roas) == expected
