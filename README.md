@@ -72,7 +72,3 @@ Output (approx): 0.0369 sec
 docker-compose up --build
 ---
 
-### 🔁 Celery Task: daily_budget_audit
-Runs every day to audit recent bids.
-
----
