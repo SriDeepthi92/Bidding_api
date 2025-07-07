@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMAGE_NAME: yourdockerhubusername/bidding-app  # ← change to your real Docker Hub repo name
+      IMAGE_NAME: sri543/bidding-app  
 
     steps:
       - name: Checkout code
