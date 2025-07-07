@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Ruff linter
         run: |
-          ruff bids
+          ruff bidding
           ruff manage.py
 
       - name: Install Python dependencies
